@@ -59,7 +59,7 @@ In addition, the CLI uses the existing [Flow Go SDK](https://github.com/onflow/f
 
 ## Troubleshooting
 
-If after go install, calling flowcli on terminal results in error saying ```-bash: flowcli: command not found```, configure $PATH environment variable to include Go binaries
+If after go install, calling flowcli on terminal results in error saying ```-bash: flowcli: command not found```, configure $PATH environment variable to include Go binaries in bash_profile and save it
 
 ```
 $ export PATH=$PATH:$(go env GOPATH)/bin

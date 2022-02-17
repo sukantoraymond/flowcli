@@ -37,7 +37,7 @@ flowcli
 
 ## Design
   
-This CLI is built using [Cobra]https://github.com/spf13/cobra library, which is the most popular library used for CLI tools. I chose to use this library because it automatically parses user commands and auto suggests the correct command without having to implement additional custom code that will have to be maintained.
+This CLI is built using [Cobra](https://github.com/spf13/cobra) library, which is the most popular library used for CLI tools. I chose to use this library because it automatically parses user commands and auto suggests the correct command without having to implement additional custom code that will have to be maintained.
 
 The CLI command to get user command is structured as flowcli accounts get, so that in the future additional commands to interact with accounts such as delete and update can be integrated more easily. 
 

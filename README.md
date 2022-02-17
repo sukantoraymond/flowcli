@@ -2,7 +2,7 @@
 
 ## User Story
 
-As a Flow software developer, I need a CLI tool to retrieve information regarding several test accounts in Flow Emulator for development purposes. A Flow account contains address, balance, public keys and contracts and the CLI will need to query and present all these information to developer.  
+As a Flow software developer, I need a CLI tool to retrieve information regarding test accounts in Flow Emulator for development purposes. A Flow account contains address, balance, public keys and contracts and the CLI will need to query and present all these information to developer.  
 
 Acceptance Criteria: 
 - CLI should present all available options to developer when called without any command and flag

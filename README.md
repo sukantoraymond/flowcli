@@ -26,7 +26,7 @@ Get all dependencies required as specified in go.mod
 go get
 ```
 
-Start using the CLI to get account information! 
+Start using the CLI to get account information! (Remember to call docker-compose up prior to calling flowcli)
 ```
 flowcli accounts get <address>
 ``` 
@@ -37,6 +37,11 @@ flowcli
 
 ## Design
   
-This CLI is using Cobra 
+This CLI is built using Cobra library, which is the most popular library used for CLI tools. I chose to use this library because it automatically parses user commands and auto suggests the correct command without having to implement additional custom code that will have to be maintained.
+
+The CLI command to get user command is structured as flowcli accounts get, so that in the future additional commands to interact with accounts such as delete and update can be integrated more easily. 
+
+In addition, the CLI usees the existing Flow Go SDK to query account information to minimize the number of custom code that will have to be maintained in the future.
+
 
 

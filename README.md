@@ -41,7 +41,7 @@ This CLI is built using Cobra library, which is the most popular library used fo
 
 The CLI command to get user command is structured as flowcli accounts get, so that in the future additional commands to interact with accounts such as delete and update can be integrated more easily. 
 
-In addition, the CLI usees the existing [Flow Go SDK](https://github.com/onflow/flow-go-sdk/blob/master/examples/get_accounts/main.go) to query account information to minimize the number of custom code that will have to be maintained in the future.
+In addition, the CLI uses the existing [Flow Go SDK](https://github.com/onflow/flow-go-sdk/blob/master/examples/get_accounts/main.go) to query account information to minimize the number of custom code that will have to be maintained in the future.
 
 
 

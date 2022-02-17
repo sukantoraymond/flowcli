@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  emulator:
+    image: gcr.io/flow-container-registry/emulator:0.28.0
+    ports:
+      - "8080:8080"
+      - "3569:3569"
+    environment:
+      - FLOW_SERVICEPRIVATEKEY=80e33e205b8458f895b25cbd57bc3680e26bcecfeb737fbdaea485c053513089
+      - FLOW_SERVICEKEYSIGALGO=ECDSA_P256
+      - FLOW_SERVICEKEYHASHALGO=SHA3_256
+  bootstrap:
+    image: gcr.io/flow-container-registry/emulator-bootstrap
+    depends_on:
+      - emulator
+    environment:
+      - FLOW_ACCESSHOST=emulator:3569
+      - FLOW_SERVICEPRIVATEKEY=80e33e205b8458f895b25cbd57bc3680e26bcecfeb737fbdaea485c053513089
+      - FLOW_SERVICEKEYSIGALGO=ECDSA_P256

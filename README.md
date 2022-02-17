@@ -12,7 +12,7 @@ Acceptance Criteria:
 
 ## Usage
 
-To use flowcli CLI, this repo needs to be git cloned in $GOPATH/github.com/sukantoraymond
+To use flowcli CLI, this repo needs to be git cloned in $GOPATH/src/github.com/sukantoraymond
 
 Change directory to project directory 
 

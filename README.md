@@ -67,4 +67,4 @@ $ export PATH=$PATH:$(go env GOPATH)/bin
 
 calling flowcli on terminal should now work
 
-Otherwise, go to ```$GOPATH/bin``` and execute '''./flowcli'''
+Otherwise, go to ```$GOPATH/bin``` and execute ```./flowcli```

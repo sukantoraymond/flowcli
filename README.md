@@ -26,6 +26,12 @@ Get all dependencies required as specified in go.mod
 go get
 ```
 
+Generate the executable binary for the CLI 
+
+```
+go build github.com/sukantoraymond/flowcli
+```
+
 Start using the CLI to get account information! (Remember to call start the Flow Emulator through docker-compose up prior to calling flowcli)
 ```
 flowcli accounts get <address>

@@ -41,7 +41,7 @@ or simply call flowcli to present command options
 flowcli
 ``` 
 
-flowcli will be able to present account information for following test accounts preconfigured in the emulator:
+flowcli will be able to present account information for the following test accounts preconfigured in the emulator:
 
 ```
 Account 1: 01cf0e2f2f715450

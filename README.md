@@ -57,5 +57,11 @@ The CLI command to get user command is structured as flowcli accounts get, so th
 
 In addition, the CLI uses the existing [Flow Go SDK](https://github.com/onflow/flow-go-sdk/blob/master/examples/get_accounts/main.go) to query account information to minimize the number of custom code that will have to be maintained in the future.
 
+## Troubleshooting
 
+If after go install, calling flowcli on terminal results in error saying ```-bash: flowcli: command not found```, configure $PATH environment variable to include Go binaries
+
+```
+$ export PATH=$PATH:$(go env GOPATH)/bin
+```
 

@@ -12,20 +12,28 @@ Acceptance Criteria:
 
 ## Usage
 
-To use flowcli CLI, this repo needs to be git cloned in $GOPATH/github.com/sukantoraymond. 
+To use flowcli CLI, this repo needs to be git cloned in $GOPATH/github.com/sukantoraymond
 
 Change directory to project directory 
+
 ```
 cd flowcli
 ```
 
 Get all dependencies required as specified in go.mod
 
+```
 go get
+```
 
-Start using the CLI! 
-
-flowcli <commands> 
+Start using the CLI to get account information! 
+```
+flowcli accounts get <address>
+``` 
+or simply call flowcli to present command options
+```
+flowcli
+``` 
 
 ## Design
   

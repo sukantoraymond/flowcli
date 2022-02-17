@@ -41,6 +41,14 @@ or simply call flowcli to present command options
 flowcli
 ``` 
 
+flowcli will be able to present account information for following test accounts preconfigured in the emulator:
+
+```
+Account 1: 01cf0e2f2f715450
+Account 2: 179b6b1cb6755e31
+Account 3: f3fcd2c1a78f5eee
+```
+
 ## Design
   
 This CLI is built using [Cobra](https://github.com/spf13/cobra) library, which is the most popular library used for CLI tools. I chose to use this library because it automatically parses user commands, presents available commands and auto suggests the correct command without having to implement additional custom code that will have to be maintained.
